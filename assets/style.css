@@ -1,3 +1,4 @@
+```css id="5uyjwc"
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
     -webkit-font-smoothing: antialiased;
 }
 
-body {
+body{
     background-color: #f3e5d7;
 }
 
@@ -18,24 +19,24 @@ body > div{
     border-radius: 24px;
 }
 
-div img {
+div img{
     width: 100%;
     border-radius: 12px;
     margin-bottom: 40px;
 }
 
-h1, h2 {
+h1, h2{
     font-family: 'Lora', serif;
 }
 
-h1 {
+h1{
     font-size: 40px;
     color: #312e2c;
     line-height: 100%;
     margin-bottom: 24px;
 }
 
-p, li, th, td {
+p, li, th, td{
     font-family: 'Outfit', sans-serif;
 }
 
@@ -52,7 +53,7 @@ p{
     margin-bottom: 32px;
 }
 
-.tempo h2 {
+.tempo h2{
     font-size: 20px;
     font-weight: 600;
     line-height: 100%;
@@ -61,7 +62,7 @@ p{
     margin-bottom: 16px;
 }
 
-li {
+li{
     padding-left: 10px;
     color: #5f564d;
     line-height: 150%;
@@ -71,7 +72,7 @@ li + li{
     margin-top: 8px;
 }
 
-ol, ul {
+ol, ul{
     margin-left: 20px;
 }
 
@@ -88,11 +89,11 @@ h2{
 }
 
 .ingredientes li::marker{
-    font-size: 12px;
     color: #854632;
+    font-size: 12px;
 }
 
-hr {
+hr{
     border: 1px solid #e3ddd7;
     margin-block: 32px;
 }
@@ -102,7 +103,7 @@ hr {
     font-weight: 700;
 }
 
-.informacoes p {
+.informacoes p{
     margin-bottom: 24px;
 }
 
@@ -110,12 +111,12 @@ table{
     width: 100%;
 }
 
-th, td {
+th, td{
     border-bottom: 1px solid #e3ddd7;
     width: 100%;
 }
 
-tr {
+tr{
     display: flex;
 }
 
@@ -127,7 +128,7 @@ th{
     line-height: 150%;
 }
 
-td {
+td{
     padding-left: 16px;
     font-weight: 700;
     color: #854632;
@@ -135,16 +136,16 @@ td {
 }
 
 tr + tr th,
-tr + tr td {
+tr + tr td{
     padding-block: 12px;
 }
 
 tr:nth-of-type(1) th,
 tr:nth-of-type(1) td{
-    padding-bottom:12px;
+    padding-bottom: 12px;
 }
 
 tr:nth-of-type(4) th,
 tr:nth-of-type(4) td{
-    border:none;
+    border: none;
 }
